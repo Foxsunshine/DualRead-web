@@ -1,0 +1,32 @@
+# ─── Secrets (ADR-A21 layer 1) ───────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Next.js standard ────────────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel/
+
+# Testing / coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── Editor / OS ─────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+
+# ─── Local Claude Code settings ──────────────────────────────
+.claude/settings.local.json
